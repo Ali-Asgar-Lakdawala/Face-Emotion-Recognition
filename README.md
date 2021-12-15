@@ -109,7 +109,7 @@ We have created front-end using Streamlit for webapp and used streamlit-webrtc w
 | Website | Link |
 | ------ | ------ |
 | Heroku | https://face-recognition-emotion.herokuapp.com/ |
-| Streamlit | https://share.streamlit.io/aaryant31/face_emotion_recognition/main/app.py |
+| Streamlit | https://share.streamlit.io/ali-asgar-lakdawala/face-emotion-recognition/main/app.py |
 ## Conclusion
 
 * We were successfull in deploying the strealit app on heruko with the model accuracy of 66 %.
