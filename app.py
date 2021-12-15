@@ -63,14 +63,14 @@ def main():
                                             </br>"""
         st.markdown(html_temp_home1, unsafe_allow_html=True)
         st.write("""The application has two functionalities.""")
-        st.write(""">1. Real time face detection using web cam feed.
-                    >2. Real time face emotion recognization. """)
+        st.write(""">1. Real-time face detection using webcam feed.
+                    >2. Real-time face emotion recognization. """)
         
     elif choice == "Webcam Face Detection":
         st.header("Webcam Live Feed")
-        st.write("Click on start to use webcam and detect your face emotion")
+        st.write("Click on start to use a webcam and detect your facial emotion")
         webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
-        st.info("If Stuck check Error and Solutions from sidebaar")
+        st.info("If Stuck check Error and Solutions from the sidebar")
 
 
     elif choice == "About":
@@ -84,8 +84,7 @@ def main():
 
         html_temp4 = """
                                     <div style="background-color:#98AFC7;padding:10px">
-                                    <h4 style="color:white;text-align:center;">This Application is developed by Rahul Kumar Soni and Ali Asgar Lakdawala
-                                    using Streamlit Framework, Opencv, Tensorflow and Keras library for demonstration purpose. </h4>
+                                    <h4 style="color:white;text-align:center;">Rahul Kumar Soni and Ali Asgar Lakdawala created this demo application using the Streamlit Framework, OpenCV, Tensorflow, and Keras libraries. </h4>
                                     <h4 style="color:white;text-align:center;">Thanks for Visiting</h4>
                                     </div>
                                     <br></br>
@@ -93,7 +92,7 @@ def main():
 
         st.markdown(html_temp4, unsafe_allow_html=True)
     elif choice == "Contack Us":
-        st.header("Contact us Details")
+        st.header("Contact Details")
         st.write(""" LinkedIn profile Links""")
         st.write(""">* [Rahul kumar soni] (https://www.linkedin.com/in/rahulsoni1b9757168/)
                            >* [Ali asgar lakadwala] (https://www.linkedin.com/in/ali-asgar-lakdawala/)""")
