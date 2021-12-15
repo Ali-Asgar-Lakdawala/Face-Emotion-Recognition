@@ -94,11 +94,12 @@ def main():
     elif choice == "Contack Us":
         st.header("Contact Details")
         st.write(""" LinkedIn profile Links""")
-        st.write(""">* [Rahul kumar soni] (https://www.linkedin.com/in/rahulsoni1b9757168/)
-                           >* [Ali asgar lakadwala] (https://www.linkedin.com/in/ali-asgar-lakdawala/)""")
+        st.write(""">* [Rahul Kumar Soni] (https://www.linkedin.com/in/rahulsoni1b9757168/)
+                           >* [Ali Asgar Lakadwala] (https://www.linkedin.com/in/ali-asgar-lakdawala/)""")
         st.write("""Email Ids""")
-        st.write(""">* Rahul kumar soni : kr001rahul@gmail.com
-                    >* Ali asgar lakadwala :aliasgarlakdawala0209@gmail.com """)
+        st.write(""">* Rahul Kumar Soni : kr001rahul@gmail.com)
+                    >* Ali Asgar Lakadwala : aliasgarlakdawala0209@gmail.com""")
+
 
     elif choice == "Error and Solutions":
         st.error('''Could not start video source''')
