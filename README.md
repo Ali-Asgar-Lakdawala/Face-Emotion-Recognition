@@ -95,7 +95,8 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 The following video contains the real time deploymnet of the app in local runtime 
 
 
-https://user-images.githubusercontent.com/87444913/146202488-80415c71-8fbb-437c-8ded-0fd3bb86887e.mp4
+
+https://user-images.githubusercontent.com/87444913/146640755-132fe7fb-d10d-4ddc-9636-0df19fb5c909.mp4
 
 
 
